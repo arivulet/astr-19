@@ -1,0 +1,14 @@
+# THIS PROGRAM WILL WRITE OUT HELLO WORLD LIEK A BAWS
+
+
+#THIS IS CALLED A FUNCTION, ITS PURPOSE IS TO FUNCTION
+def PrintHelloWorld():
+    print("HELLO WORLD!!!!!!!!!!!")
+
+#THIS IS ANOTHER FUNCTION TO CALL THE FUNCTION
+def main():
+    PrintHelloWorld()
+
+#THIS GOES FIRST HELLLLLLLL YEA
+if __name__ =="__main__":
+    main()
