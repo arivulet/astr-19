@@ -5,9 +5,9 @@ def main():
     entries =  1000
     
     beg = 0
-    end = 2
+    end = 2 * math.pi
 
-    inc = 2 / (entries - 1)
+    inc = (end - beg) / (entries - 1)
 
     print("  x     sin(x)") 
     print("-" * 22)
